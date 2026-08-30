@@ -1,0 +1,76 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Licensed source data and generated audio
+data/
+datasets/
+*.wav
+*.wave
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.mp4
+*.mov
+*.zip
+*.tar
+*.tar.gz
+
+# Model weights, adapters, checkpoints, and generated runs
+adapters/
+checkpoints/
+outputs/
+tmp/
+wandb/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Generated benchmark audio only; small manifests remain tracked
+artifacts/**/audio/
+artifacts/**/mixture_audio/
+
+# LaTeX build products (the release PDF is explicitly allowed)
+paper/*.aux
+paper/*.bbl
+paper/*.bcf
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.run.xml
+paper/*.synctex.gz
+paper/*.toc
+paper/main.pdf
+!paper/ECHO.pdf
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Internal project notes (excluded from the double-blind artifact)
+docs/

@@ -1,0 +1,9 @@
+{
+  "accepted_items": 28,
+  "eligible_pieces": 44,
+  "inventory_stems": 149,
+  "output_root": "./artifacts/stereomusicqa_v0.2",
+  "rejected_items": 16,
+  "render_plans": 44,
+  "skipped_pieces": 0
+}

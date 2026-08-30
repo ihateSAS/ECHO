@@ -1,0 +1,19 @@
+{
+  "benchmark_name": "StereoMusicQA",
+  "version": "0.2.0",
+  "seed": 2026,
+  "sample_rate": 48000,
+  "clip_duration_seconds": 6.0,
+  "angles_degrees": [-25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25],
+  "azimuth_tolerance_degrees": 5.0,
+  "minimum_rms_db": -45.0,
+  "maximum_peak": 0.99,
+  "source_root": "../../data/URMP",
+  "output_root": "../../artifacts/stereomusicqa_v0.2",
+  "processing_recipes": [
+    [{"kind": "compression", "params": {"threshold_db": -20.0, "ratio": 4.0}}],
+    [{"kind": "eq", "params": {"center_hz": 1000.0, "gain_db": 6.0, "q": 1.0}}],
+    [{"kind": "midside", "params": {"width": 1.2}}],
+    [{"kind": "delay_widening", "params": {"delay_us": 300.0}}]
+  ]
+}

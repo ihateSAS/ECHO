@@ -1,0 +1,31 @@
+{
+  "condition": "audio-only, QLoRA fine-tuned adapter",
+  "items": 1045,
+  "side_accuracy": 0.44401913875598087,
+  "model_stated_side_dist": {
+    "right": 953,
+    "left": 92
+  },
+  "true_side_dist": {
+    "right": 475,
+    "center": 95,
+    "left": 475
+  },
+  "confusion_true_to_stated": {
+    "left->left": 38,
+    "left->right": 437,
+    "left->center": 0,
+    "left->NONE": 0,
+    "right->left": 49,
+    "right->right": 426,
+    "right->center": 0,
+    "right->NONE": 0,
+    "center->left": 5,
+    "center->right": 90,
+    "center->center": 0,
+    "center->NONE": 0
+  },
+  "reference_always_majority_side": 0.45454545454545453,
+  "reference_zero_shot_audio_only_side": 0.285,
+  "reference_cues_finetune_side": 1.0
+}

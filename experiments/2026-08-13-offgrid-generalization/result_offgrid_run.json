@@ -1,0 +1,131 @@
+{
+ "labels": "artifacts/stereomusicqa_offgrid/test_private_labels.jsonl",
+ "items": 190,
+ "reports": [
+  {
+   "name": "cues-finetune-offgrid",
+   "items": 190,
+   "answered": 190,
+   "coverage": 1.0,
+   "mean_abs_error_deg": 4.805789473684211,
+   "median_abs_error_deg": 1.8000000000000007,
+   "within_tolerance_rate": 0.8,
+   "azimuth_tolerance_deg": 5.0,
+   "side_accuracy": 1.0,
+   "all_passed_rate": 0.8,
+   "inference_passed_rate": 0.8,
+   "within_tolerance_by_angle": {
+    "-21.8": 1.0,
+    "-16.4": 1.0,
+    "-13.5": 1.0,
+    "-8.0": 1.0,
+    "-2.5": 0.0,
+    "2.5": 0.0,
+    "8.0": 1.0,
+    "13.5": 1.0,
+    "16.4": 1.0,
+    "21.8": 1.0
+   }
+  },
+  {
+   "name": "no answer",
+   "items": 190,
+   "answered": 0,
+   "coverage": 0.0,
+   "mean_abs_error_deg": NaN,
+   "median_abs_error_deg": NaN,
+   "within_tolerance_rate": 0.0,
+   "azimuth_tolerance_deg": 5.0,
+   "side_accuracy": 0.0,
+   "all_passed_rate": 0.0,
+   "inference_passed_rate": 0.0,
+   "within_tolerance_by_angle": {
+    "-21.8": 0.0,
+    "-16.4": 0.0,
+    "-13.5": 0.0,
+    "-8.0": 0.0,
+    "-2.5": 0.0,
+    "2.5": 0.0,
+    "8.0": 0.0,
+    "13.5": 0.0,
+    "16.4": 0.0,
+    "21.8": 0.0
+   }
+  },
+  {
+   "name": "always centre",
+   "items": 190,
+   "answered": 190,
+   "coverage": 1.0,
+   "mean_abs_error_deg": 12.44,
+   "median_abs_error_deg": 13.5,
+   "within_tolerance_rate": 0.2,
+   "azimuth_tolerance_deg": 5.0,
+   "side_accuracy": 0.0,
+   "all_passed_rate": 0.1,
+   "inference_passed_rate": 0.1,
+   "within_tolerance_by_angle": {
+    "-21.8": 0.0,
+    "-16.4": 0.0,
+    "-13.5": 0.0,
+    "-8.0": 0.0,
+    "-2.5": 1.0,
+    "2.5": 1.0,
+    "8.0": 0.0,
+    "13.5": 0.0,
+    "16.4": 0.0,
+    "21.8": 0.0
+   }
+  },
+  {
+   "name": "random from grid",
+   "items": 190,
+   "answered": 190,
+   "coverage": 1.0,
+   "mean_abs_error_deg": 16.59263157894737,
+   "median_abs_error_deg": 13.899999999999999,
+   "within_tolerance_rate": 0.16842105263157894,
+   "azimuth_tolerance_deg": 5.0,
+   "side_accuracy": 0.4789473684210526,
+   "all_passed_rate": 0.14210526315789473,
+   "inference_passed_rate": 0.14210526315789473,
+   "within_tolerance_by_angle": {
+    "-21.8": 0.05263157894736842,
+    "-16.4": 0.21052631578947367,
+    "-13.5": 0.0,
+    "-8.0": 0.05263157894736842,
+    "-2.5": 0.21052631578947367,
+    "2.5": 0.2631578947368421,
+    "8.0": 0.10526315789473684,
+    "13.5": 0.2631578947368421,
+    "16.4": 0.42105263157894735,
+    "21.8": 0.10526315789473684
+   }
+  },
+  {
+   "name": "front end (ceiling)",
+   "items": 190,
+   "answered": 190,
+   "coverage": 1.0,
+   "mean_abs_error_deg": 0.0,
+   "median_abs_error_deg": 0.0,
+   "within_tolerance_rate": 1.0,
+   "azimuth_tolerance_deg": 5.0,
+   "side_accuracy": 1.0,
+   "all_passed_rate": 1.0,
+   "inference_passed_rate": 1.0,
+   "within_tolerance_by_angle": {
+    "-21.8": 1.0,
+    "-16.4": 1.0,
+    "-13.5": 1.0,
+    "-8.0": 1.0,
+    "-2.5": 1.0,
+    "2.5": 1.0,
+    "8.0": 1.0,
+    "13.5": 1.0,
+    "16.4": 1.0,
+    "21.8": 1.0
+   }
+  }
+ ]
+}

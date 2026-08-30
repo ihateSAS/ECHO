@@ -1,0 +1,42 @@
+{
+  "model": "qwen2-audio-7b",
+  "condition": "audio_only",
+  "finetuned": true,
+  "dithered_train": true,
+  "dithered_eval": true,
+  "encoder_unfrozen": true,
+  "scoring_method": "stated_word",
+  "items": 1045,
+  "side_accuracy": 0.45454545454545453,
+  "unique_answer_strings": {
+    "The cello is at 5.0 degrees to the right.": 1045
+  },
+  "stated_side_distribution": {
+    "right": 1045
+  },
+  "confusion_by_true_side": {
+    "left": {
+      "n": 475,
+      "correct_rate": 0.0,
+      "distribution": {
+        "right": 475
+      }
+    },
+    "right": {
+      "n": 475,
+      "correct_rate": 1.0,
+      "distribution": {
+        "right": 475
+      }
+    },
+    "center": {
+      "n": 95,
+      "correct_rate": 0.0,
+      "distribution": {
+        "right": 95
+      }
+    }
+  },
+  "always_majority_baseline": 0.45454545454545453,
+  "note": "total collapse to a single constant answer, identical in kind to the original non-dithered fine-tunes failure, regression relative to the partial-encoder dithered run (75.6%)"
+}

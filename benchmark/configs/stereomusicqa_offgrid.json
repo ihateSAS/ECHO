@@ -1,0 +1,14 @@
+{
+  "benchmark_name": "StereoMusicQA-offgrid",
+  "version": "0.2.0-offgrid",
+  "seed": 2026,
+  "sample_rate": 48000,
+  "clip_duration_seconds": 6.0,
+  "angles_degrees": [-21.8, -16.4, -13.5, -8.0, -2.5, 2.5, 8.0, 13.5, 16.4, 21.8],
+  "azimuth_tolerance_degrees": 5.0,
+  "minimum_rms_db": -45.0,
+  "maximum_peak": 0.99,
+  "source_root": "../../data/URMP",
+  "output_root": "../../artifacts/stereomusicqa_offgrid",
+  "processing_recipes": []
+}

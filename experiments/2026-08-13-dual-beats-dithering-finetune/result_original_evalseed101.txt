@@ -1,0 +1,9 @@
+1045 items scored from experiments/2026-08-13-dual-beats-dithering-finetune/answers_original_evalseed101.jsonl
+side accuracy (stated word): 75.6%
+
+stated-side distribution: {'left': 719, 'right': 326}
+
+confusion (true side -> stated side):
+  true=left   n= 475 correct=99.8%  {'left': 474, 'right': 1}
+  true=right  n= 475 correct=66.5%  {'left': 159, 'right': 316}
+  true=center n=  95 correct= 0.0%  {'left': 86, 'right': 9}

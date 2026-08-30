@@ -1,0 +1,20 @@
+numpy>=1.24
+scipy>=1.11
+librosa>=0.10
+soundfile>=0.12
+matplotlib>=3.7
+pytest>=7.4
+
+# Backbone integration (Part 6). Heavier than the rest and only needed to
+# load Qwen2-Audio; the signal-processing front end runs without them.
+torch>=2.2
+transformers>=4.45
+accelerate>=0.30
+
+# Multi-model evaluation (docs/models.md). Optional and per-provider: the
+# provider adapters in model/providers.py lazy-import these, so the repo and
+# its tests run without them installed. Install only the one you're running.
+# modal            # self-hosted GPU runs (scripts/modal_generate.py)
+# openai           # gpt-4o-audio  (scripts/api_generate.py --provider gpt-4o-audio)
+# google-genai     # gemini (scripts/api_generate.py --provider gemini) -- the
+#                    older google-generativeai package is deprecated by Google

@@ -1,0 +1,227 @@
+{
+ "finetune_transcripts": {
+  "source": "experiments/2026-08-10-cues-finetune-fixes-arithmetic/answers.jsonl",
+  "items": 1045,
+  "parsed": 1045,
+  "distinct_cue_answer_pairs": 21,
+  "pairs": [
+   {
+    "ild_db": -36.1,
+    "azimuth_deg": -29.2
+   },
+   {
+    "ild_db": -19.5,
+    "azimuth_deg": -25.0
+   },
+   {
+    "ild_db": -17.2,
+    "azimuth_deg": -23.6
+   },
+   {
+    "ild_db": -12.9,
+    "azimuth_deg": -20.0
+   },
+   {
+    "ild_db": -10.9,
+    "azimuth_deg": -17.8
+   },
+   {
+    "ild_db": -8.7,
+    "azimuth_deg": -15.0
+   },
+   {
+    "ild_db": -6.7,
+    "azimuth_deg": -11.9
+   },
+   {
+    "ild_db": -5.5,
+    "azimuth_deg": -10.0
+   },
+   {
+    "ild_db": -3.2,
+    "azimuth_deg": -6.0
+   },
+   {
+    "ild_db": -2.7,
+    "azimuth_deg": -5.0
+   },
+   {
+    "ild_db": 0.0,
+    "azimuth_deg": 0.0
+   },
+   {
+    "ild_db": 2.7,
+    "azimuth_deg": 5.0
+   },
+   {
+    "ild_db": 3.2,
+    "azimuth_deg": 6.0
+   },
+   {
+    "ild_db": 5.5,
+    "azimuth_deg": 10.0
+   },
+   {
+    "ild_db": 6.7,
+    "azimuth_deg": 11.9
+   },
+   {
+    "ild_db": 8.7,
+    "azimuth_deg": 15.0
+   },
+   {
+    "ild_db": 10.9,
+    "azimuth_deg": 17.8
+   },
+   {
+    "ild_db": 12.9,
+    "azimuth_deg": 20.0
+   },
+   {
+    "ild_db": 17.2,
+    "azimuth_deg": 23.6
+   },
+   {
+    "ild_db": 19.5,
+    "azimuth_deg": 25.0
+   },
+   {
+    "ild_db": 36.1,
+    "azimuth_deg": 29.2
+   }
+  ]
+ },
+ "trained_answer_angles_deg": [
+  -29.23,
+  -25.0,
+  -23.594,
+  -20.0,
+  -17.8246,
+  -15.0,
+  -11.9471,
+  -10.0,
+  -5.9933,
+  -5.0,
+  0.0,
+  5.0,
+  5.9933,
+  10.0,
+  11.9471,
+  15.0,
+  17.8246,
+  20.0,
+  23.594,
+  25.0,
+  29.23
+ ],
+ "eval_designs": {
+  "naive_midpoints": {
+   "eval_angles_deg": [
+    -22.5,
+    -17.5,
+    -12.5,
+    -7.5,
+    -2.5,
+    2.5,
+    7.5,
+    12.5,
+    17.5,
+    22.5
+   ],
+   "trained_angles_deg": [
+    -29.23,
+    -25.0,
+    -23.594,
+    -20.0,
+    -17.8246,
+    -15.0,
+    -11.9471,
+    -10.0,
+    -5.9933,
+    -5.0,
+    0.0,
+    5.0,
+    5.9933,
+    10.0,
+    11.9471,
+    15.0,
+    17.8246,
+    20.0,
+    23.594,
+    25.0,
+    29.23
+   ],
+   "hypotheses": {
+    "memorised the table": {
+     "within_tolerance": 1.0,
+     "mean_abs_error_deg": 1.1956400000000003,
+     "on_grid_rate": 1.0
+    },
+    "learned the panning law": {
+     "within_tolerance": 1.0,
+     "mean_abs_error_deg": 0.0,
+     "on_grid_rate": 0.4
+    }
+   },
+   "separates_on": {
+    "within_tolerance": false,
+    "mean_abs_error": true,
+    "on_grid_rate": true
+   }
+  },
+  "chosen_widest_gaps": {
+   "eval_angles_deg": [
+    -21.8,
+    -16.4,
+    -13.5,
+    -8.0,
+    -2.5,
+    2.5,
+    8.0,
+    13.5,
+    16.4,
+    21.8
+   ],
+   "trained_angles_deg": [
+    -29.23,
+    -25.0,
+    -23.594,
+    -20.0,
+    -17.8246,
+    -15.0,
+    -11.9471,
+    -10.0,
+    -5.9933,
+    -5.0,
+    0.0,
+    5.0,
+    5.9933,
+    10.0,
+    11.9471,
+    15.0,
+    17.8246,
+    20.0,
+    23.594,
+    25.0,
+    29.23
+   ],
+   "hypotheses": {
+    "memorised the table": {
+     "within_tolerance": 1.0,
+     "mean_abs_error_deg": 1.8387999999999998,
+     "on_grid_rate": 1.0
+    },
+    "learned the panning law": {
+     "within_tolerance": 1.0,
+     "mean_abs_error_deg": 0.0,
+     "on_grid_rate": 0.0
+    }
+   },
+   "separates_on": {
+    "within_tolerance": false,
+    "mean_abs_error": true,
+    "on_grid_rate": true
+   }
+  }
+ }
+}

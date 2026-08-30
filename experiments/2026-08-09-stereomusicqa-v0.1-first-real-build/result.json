@@ -1,0 +1,103 @@
+{
+ "build_summary": {
+  "accepted_items": 1529,
+  "inventory_stems": 149,
+  "output_root": "./artifacts/stereomusicqa_v0.1",
+  "rejected_items": 110,
+  "render_plans": 1639
+ },
+ "items_by_split": {
+  "train": 1056,
+  "dev": 264,
+  "test": 209
+ },
+ "pieces_by_split": {
+  "train": 31,
+  "dev": 7,
+  "test": 6
+ },
+ "piece_overlap_between_splits": 0,
+ "items_per_angle": {
+  "-25.0": 139,
+  "-20.0": 139,
+  "-15.0": 139,
+  "-10.0": 139,
+  "-5.0": 139,
+  "0.0": 139,
+  "5.0": 139,
+  "10.0": 139,
+  "15.0": 139,
+  "20.0": 139,
+  "25.0": 139
+ },
+ "items_by_instrument": {
+  "vn": 363,
+  "tpt": 198,
+  "fl": 176,
+  "va": 143,
+  "sax": 121,
+  "cl": 110,
+  "vc": 110,
+  "tbn": 88,
+  "tba": 55,
+  "ob": 55,
+  "hn": 44,
+  "bn": 33,
+  "db": 33
+ },
+ "azimuth_error_deg": {
+  "max": 4.440892098500626e-15,
+  "mean": 2.433922549734156e-15
+ },
+ "coherence": {
+  "min": 1.0
+ },
+ "abs_itd_us": {
+  "max": 2.2488817228072586e-14
+ },
+ "active_bins": {
+  "min": 73,
+  "p1": 83,
+  "median": 395,
+  "p99": 1328
+ },
+ "f0_hz": {
+  "finite": 1529,
+  "total": 1529,
+  "min": 58.9512342538943,
+  "max": 1005.0257406713494
+ },
+ "regimes": {
+  "amplitude": 1529
+ },
+ "rejections": {
+  "total": 110,
+  "reasons": {
+   "audio_too_quiet": 110
+  },
+  "by_instrument": {
+   "fl": 22,
+   "tpt": 44,
+   "ob": 11,
+   "vn": 11,
+   "vc": 11,
+   "hn": 11
+  },
+  "distinct_stems": [
+   "AuSep_1_fl_03_Dance",
+   "AuSep_1_ob_11_Maria",
+   "AuSep_1_tpt_09_Jesus",
+   "AuSep_1_tpt_10_March",
+   "AuSep_1_tpt_16_Surprise",
+   "AuSep_2_fl_29_Fugue",
+   "AuSep_2_tpt_34_Fugue",
+   "AuSep_2_vn_19_Pavane",
+   "AuSep_3_hn_34_Fugue",
+   "AuSep_3_vc_19_Pavane"
+  ]
+ },
+ "leakage_check": {
+  "public_test_items": 209,
+  "ids_or_paths_encoding_the_angle": 0
+ }
+}

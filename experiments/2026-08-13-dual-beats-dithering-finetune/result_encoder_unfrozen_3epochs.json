@@ -1,0 +1,49 @@
+{
+  "model": "qwen2-audio-7b",
+  "condition": "audio_only",
+  "finetuned": true,
+  "dithered_train": true,
+  "dithered_eval": true,
+  "encoder_unfrozen": true,
+  "epochs": 3,
+  "full_train_set": true,
+  "scoring_method": "stated_word",
+  "items": 1045,
+  "side_accuracy": 0.4640191387559809,
+  "unique_answer_strings": {
+    "The cello is at 5.0 degrees to the right.": 751,
+    "The cello is at 5.0 degrees to the left.": 294
+  },
+  "stated_side_distribution": {
+    "right": 751,
+    "left": 294
+  },
+  "confusion_by_true_side": {
+    "left": {
+      "n": 475,
+      "correct_rate": 0.29473684210526313,
+      "distribution": {
+        "left": 140,
+        "right": 335
+      }
+    },
+    "right": {
+      "n": 475,
+      "correct_rate": 0.7263157894736842,
+      "distribution": {
+        "right": 345,
+        "left": 130
+      }
+    },
+    "center": {
+      "n": 95,
+      "correct_rate": 0.0,
+      "distribution": {
+        "left": 24,
+        "right": 71
+      }
+    }
+  },
+  "always_majority_baseline": 0.45454545454545453,
+  "note": "accuracy statistically indistinguishable from the models own marginal answer distribution (71.9% right) applied independent of true side -- not a real signal, same conclusion as the 1-epoch unfrozen run despite a less extreme-looking collapse (2 templates vs 1)"
+}

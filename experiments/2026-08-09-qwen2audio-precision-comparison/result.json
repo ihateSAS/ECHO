@@ -1,0 +1,146 @@
+{
+  "evidence": {
+    "ild_db": 19.5,
+    "high_frequency_ild_db": 19.5,
+    "ild_flatness_db": 19.5,
+    "itd_us": 0.0,
+    "itd_peak_strength": 0.9,
+    "coherence": 1.0,
+    "estimated_azimuth_deg": 25.0,
+    "estimated_regime": "amplitude",
+    "active_bins": 500,
+    "f0_hz": 147.7
+  },
+  "runs": {
+    "4bit_120tok": {
+      "transcript": "The instrument is positioned at an inter-channel level difference of 19.5 dB with the left channel being louder, suggesting it may be in a stereo image where the left channel has more emphasis or volume relative to the right channel. The description also indicates that there is no inter-channel delay, meaning the sound from each channel arrives at the same time. This suggests the instrument is likely in close proximity to the audio processing equipment or amplifier. Additionally, the coherence value of 1.00 implies that the sound is highly coherent, meaning the phase relationship between the different channels is consistent. Finally,",
+      "all_passed": true,
+      "inference_passed": false,
+      "checks": [
+        {
+          "quantity": "ild_db",
+          "claimed": 19.5,
+          "measured": 19.5,
+          "tolerance": 1.5,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "itd_us",
+          "claimed": 0.0,
+          "measured": 0.0,
+          "tolerance": 30.0,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "coherence",
+          "claimed": 1.0,
+          "measured": 1.0,
+          "tolerance": 0.1,
+          "passed": true,
+          "consistency_kind": "read_out"
+        }
+      ],
+      "unparseable_claims": []
+    },
+    "4bit_250tok": {
+      "transcript": "The instrument is positioned at an inter-channel level difference of 19.5 dB with the left channel being louder, suggesting it may be in a stereo image where the left channel has more emphasis or volume relative to the right channel. The description also indicates that there is no inter-channel delay, meaning the sound from each channel arrives at the same time. This suggests the instrument is likely in close proximity to the audio processing equipment or amplifier. Additionally, the coherence value of 1.00 implies that the sound is highly coherent, meaning the phase relationship between the different channels is consistent. Finally, the median tracked fundamental frequency of 147.7 Hz indicates that the instrument's frequency content is centered around this pitch. Overall, these factors suggest that the instrument is likely in a controlled environment where its sound can be precisely managed for optimal performance.",
+      "all_passed": true,
+      "inference_passed": false,
+      "checks": [
+        {
+          "quantity": "ild_db",
+          "claimed": 19.5,
+          "measured": 19.5,
+          "tolerance": 1.5,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "itd_us",
+          "claimed": 0.0,
+          "measured": 0.0,
+          "tolerance": 30.0,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "coherence",
+          "claimed": 1.0,
+          "measured": 1.0,
+          "tolerance": 0.1,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "f0_hz",
+          "claimed": 147.7,
+          "measured": 147.7,
+          "tolerance": 4.430999999999999,
+          "passed": true,
+          "consistency_kind": "read_out"
+        }
+      ],
+      "unparseable_claims": []
+    },
+    "bf16_250tok": {
+      "transcript": "The instrument is positioned at an inter-channel level difference of 19.5 dB with the left channel being louder and above 2 kHz having a flatness of 19.5 dB in all octave bands. The inter-channel delay is 0 microseconds indicating no delay between channels. The coherence value is 1.00 suggesting a high degree of consistency in phase among the channels. The median tracked fundamental frequency is 147.7 Hz which indicates that the cello sound is leaning towards the lower frequencies. Based on these measurements, it can be inferred that the cello is positioned relatively close to the center of the stereo image, leaning slightly towards the left as indicated by the 25.0-degree azimuth angle.",
+      "all_passed": true,
+      "inference_passed": true,
+      "checks": [
+        {
+          "quantity": "estimated_azimuth_deg_side",
+          "claimed": "left",
+          "measured": "left",
+          "tolerance": null,
+          "passed": true,
+          "consistency_kind": "inference"
+        },
+        {
+          "quantity": "estimated_azimuth_deg_magnitude",
+          "claimed": 25.0,
+          "measured": 25.0,
+          "tolerance": 5.0,
+          "passed": true,
+          "consistency_kind": "inference"
+        },
+        {
+          "quantity": "ild_db",
+          "claimed": 19.5,
+          "measured": 19.5,
+          "tolerance": 1.5,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "itd_us",
+          "claimed": 0.0,
+          "measured": 0.0,
+          "tolerance": 30.0,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "coherence",
+          "claimed": 1.0,
+          "measured": 1.0,
+          "tolerance": 0.1,
+          "passed": true,
+          "consistency_kind": "read_out"
+        },
+        {
+          "quantity": "f0_hz",
+          "claimed": 147.7,
+          "measured": 147.7,
+          "tolerance": 4.430999999999999,
+          "passed": true,
+          "consistency_kind": "read_out"
+        }
+      ],
+      "unparseable_claims": [
+        "5 dB in all octave bands."
+      ]
+    }
+  }
+}

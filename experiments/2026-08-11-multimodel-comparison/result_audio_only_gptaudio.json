@@ -1,0 +1,47 @@
+{
+  "model": "gpt-audio",
+  "provider": "openai",
+  "condition": "audio_only",
+  "scoring_method": "stated_word",
+  "items": 1045,
+  "side_accuracy": 0.4200956937799043,
+  "stated_side_distribution": {
+    "left": 797,
+    "right": 128,
+    "NONE": 109,
+    "center": 11
+  },
+  "confusion_by_true_side": {
+    "left": {
+      "n": 475,
+      "correct_rate": 0.7810526315789473,
+      "distribution": {
+        "left": 371,
+        "right": 54,
+        "NONE": 44,
+        "center": 6
+      }
+    },
+    "right": {
+      "n": 475,
+      "correct_rate": 0.13894736842105262,
+      "distribution": {
+        "left": 354,
+        "right": 66,
+        "NONE": 52,
+        "center": 3
+      }
+    },
+    "center": {
+      "n": 95,
+      "correct_rate": 0.021052631578947368,
+      "distribution": {
+        "left": 72,
+        "right": 8,
+        "center": 2,
+        "NONE": 13
+      }
+    }
+  },
+  "always_majority_baseline": 0.45454545454545453
+}

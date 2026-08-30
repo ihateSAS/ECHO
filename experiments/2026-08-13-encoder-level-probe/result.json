@@ -1,0 +1,38 @@
+{
+ "n_excerpts": 10,
+ "n_items": 110,
+ "angles_deg": [
+  -25.0,
+  -20.0,
+  -15.0,
+  -10.0,
+  -5.0,
+  0.0,
+  5.0,
+  10.0,
+  15.0,
+  20.0,
+  25.0
+ ],
+ "log_mel_control": {
+  "mae_deg": 1.865989472703199,
+  "r2": 0.9833322831140111,
+  "within_5deg": 1.0
+ },
+ "encoder_output": {
+  "mae_deg": 2.5909043247689842,
+  "r2": 0.9528203771185669,
+  "within_5deg": 0.8909090909090909
+ },
+ "encoder_shuffled_labels": {
+  "mae_deg": 15.361400058846243,
+  "r2": -0.37542688645558275,
+  "within_5deg": 0.20909090909090908
+ },
+ "log_mel_shuffled_labels": {
+  "mae_deg": 13.781468664430449,
+  "r2": -0.0206535826811729,
+  "within_5deg": 0.24545454545454545
+ },
+ "null_control": "labels permuted within each excerpt; group membership unchanged"
+}

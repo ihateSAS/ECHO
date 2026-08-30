@@ -1,0 +1,112 @@
+[
+ {
+  "file": "fma_00000.mp3",
+  "artist": "AWOL",
+  "title": "Food",
+  "album": "AWOL - A Way Of Life",
+  "genres": [
+   "Hip-Hop"
+  ],
+  "url": "http://freemusicarchive.org/music/AWOL/AWOL_-_A_Way_Of_Life/Food",
+  "row_idx": 0
+ },
+ {
+  "file": "fma_00900.mp3",
+  "artist": "Alice Rose",
+  "title": "A Poem In Slow Motion",
+  "album": "30 Days",
+  "genres": [
+   "Singer-Songwriter"
+  ],
+  "url": "http://freemusicarchive.org/music/Alice_Rose/30_Days/set2-15-Alice_Rose-A_Poem_In_Slow_Motion_1422",
+  "row_idx": 900
+ },
+ {
+  "file": "fma_01800.mp3",
+  "artist": "Black Bear Combo",
+  "title": "Black Bear Kolo",
+  "album": "Game of Death",
+  "genres": [
+   "International",
+   "Balkan",
+   "Romany (Gypsy)"
+  ],
+  "url": "http://freemusicarchive.org/music/Black_Bear_Combo/Game_of_Death/05_Black_Bear_Kolo",
+  "row_idx": 1800
+ },
+ {
+  "file": "fma_02700.mp3",
+  "artist": "Strange Forces",
+  "title": "Liquid Sunlight",
+  "album": "Strange Forces",
+  "genres": [
+   "Rock",
+   "Psych-Rock",
+   "Space-Rock"
+  ],
+  "url": "http://freemusicarchive.org/music/Strange_Forces/Strange_Forces/New_Weird_Australia_-_Edition_Ten-_Strange_Forces_Strange_Forces_-_06_Liquid_Sunlight",
+  "row_idx": 2700
+ },
+ {
+  "file": "fma_03600.mp3",
+  "artist": "Zlatni Makedoncinja",
+  "title": "Pajdusko",
+  "album": "Live at the 2013 Golden Festival",
+  "genres": [
+   "International",
+   "Romany (Gypsy)",
+   "Turkish"
+  ],
+  "url": "http://freemusicarchive.org/music/Ork_Zlatni_Makedoncinja/Live_at_the_2013_Golden_Festival_1545/Pajdusko",
+  "row_idx": 3600
+ },
+ {
+  "file": "fma_04500.mp3",
+  "artist": "LOWdown",
+  "title": "So On and Yo!",
+  "album": "HAUPHUCHINLIVEIYAM",
+  "genres": [
+   "Hip-Hop"
+  ],
+  "url": "http://freemusicarchive.org/music/LOWdown/HAUPHUCHINLIVEIYAM/39_-_So_On_and_Yo",
+  "row_idx": 4500
+ },
+ {
+  "file": "fma_05400.mp3",
+  "artist": "Yale Women's Slavic Chorus",
+  "title": "Shto Mi E Milo",
+  "album": "Live at the 2015 Golden Fest",
+  "genres": [
+   "International",
+   "Balkan"
+  ],
+  "url": "http://freemusicarchive.org/music/Yale_Womens_Slavic_Chorus/Live_at_the_2015_Golden_Fest/Yale_-_01_-_Shto_Mi_E_Milo",
+  "row_idx": 5400
+ },
+ {
+  "file": "fma_06300.mp3",
+  "artist": "Andy G. Cohen",
+  "title": "Sheffield Hall",
+  "album": "Layers (EP)",
+  "genres": [
+   "Post-Rock",
+   "Indie-Rock",
+   "Shoegaze"
+  ],
+  "url": "http://freemusicarchive.org/music/Andy_G_Cohen/Layers_1240/Andy_G_Cohen_-_02_-_Sheffield_Hall",
+  "row_idx": 6300
+ },
+ {
+  "file": "fma_07100.mp3",
+  "artist": "Sinapsi",
+  "title": "Vertigo",
+  "album": "Come Realt\u00e0",
+  "genres": [
+   "Rock",
+   "Post-Rock",
+   "Indie-Rock"
+  ],
+  "url": "http://freemusicarchive.org/music/Sinapsi/Come_Realt/07_Vertigo",
+  "row_idx": 7100
+ }
+]

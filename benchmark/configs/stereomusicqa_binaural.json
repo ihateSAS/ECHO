@@ -1,0 +1,15 @@
+{
+  "benchmark_name": "StereoMusicQA-binaural",
+  "version": "0.3.0-binaural",
+  "seed": 2026,
+  "sample_rate": 48000,
+  "clip_duration_seconds": 6.0,
+  "rendering": "binaural",
+  "angles_degrees": [-75, -60, -45, -30, -15, 15, 30, 45, 60, 75],
+  "azimuth_tolerance_degrees": 5.0,
+  "minimum_rms_db": -45.0,
+  "maximum_peak": 0.99,
+  "source_root": "../../data/URMP",
+  "output_root": "../../artifacts/stereomusicqa_binaural",
+  "processing_recipes": []
+}

@@ -1,0 +1,33 @@
+{
+  "condition": "audio-only (two channels as two clips, no cue text)",
+  "items": 1045,
+  "side_accuracy_stated_word": 0.2851674641148325,
+  "coverage": 0.9808612440191388,
+  "model_stated_side_dist": {
+    "center": 445,
+    "left": 439,
+    "right": 141,
+    "NONE": 20
+  },
+  "true_side_dist": {
+    "right": 475,
+    "center": 95,
+    "left": 475
+  },
+  "confusion_true_to_stated": {
+    "right->center": 204,
+    "center->center": 39,
+    "left->center": 202,
+    "right->left": 203,
+    "center->left": 42,
+    "left->left": 194,
+    "right->right": 65,
+    "center->right": 13,
+    "left->right": 63,
+    "right->NONE": 3,
+    "center->NONE": 1,
+    "left->NONE": 16
+  },
+  "reference_always_majority_side": 0.45454545454545453,
+  "reference_cue_text_side_accuracy": 0.718
+}

@@ -1,0 +1,50 @@
+{
+  "labels": "artifacts/stereomusicqa_v0.2/mixture_test_private_labels.jsonl",
+  "items": 2,
+  "reports": [
+    {
+      "name": "no answer",
+      "items": 2,
+      "answered": 0,
+      "coverage": 0.0,
+      "exact_match_rate": 0.0,
+      "count_correct_rate": 0.0,
+      "mean_recall": 0.0,
+      "mean_precision": NaN,
+      "azimuth_tolerance_deg": 5.0
+    },
+    {
+      "name": "always 2 sources",
+      "items": 2,
+      "answered": 2,
+      "coverage": 1.0,
+      "exact_match_rate": 0.0,
+      "count_correct_rate": 0.5,
+      "mean_recall": 0.41666666666666663,
+      "mean_precision": 0.5,
+      "azimuth_tolerance_deg": 5.0
+    },
+    {
+      "name": "always 3 sources",
+      "items": 2,
+      "answered": 2,
+      "coverage": 1.0,
+      "exact_match_rate": 0.0,
+      "count_correct_rate": 0.5,
+      "mean_recall": 0.8333333333333333,
+      "mean_precision": 0.6666666666666666,
+      "azimuth_tolerance_deg": 5.0
+    },
+    {
+      "name": "front end (ceiling)",
+      "items": 2,
+      "answered": 2,
+      "coverage": 1.0,
+      "exact_match_rate": 1.0,
+      "count_correct_rate": 1.0,
+      "mean_recall": 1.0,
+      "mean_precision": 1.0,
+      "azimuth_tolerance_deg": 5.0
+    }
+  ]
+}

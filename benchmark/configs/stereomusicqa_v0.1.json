@@ -1,0 +1,13 @@
+{
+  "benchmark_name": "StereoMusicQA",
+  "version": "0.1.0",
+  "seed": 2026,
+  "sample_rate": 48000,
+  "clip_duration_seconds": 6.0,
+  "angles_degrees": [-25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25],
+  "azimuth_tolerance_degrees": 5.0,
+  "minimum_rms_db": -45.0,
+  "maximum_peak": 0.99,
+  "source_root": "../../data/URMP",
+  "output_root": "../../artifacts/stereomusicqa_v0.1"
+}
