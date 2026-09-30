@@ -206,6 +206,20 @@ recording is unavailable.
 
 Read the full manuscript: [`paper/ECHO.pdf`](paper/ECHO.pdf).
 
+## Citation
+
+If you find ECHO or StereoMusicQA useful, please cite:
+
+```bibtex
+@inproceedings{huang2026echo,
+  title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
+  author    = {Huang, Daniel and Shen, Alvin and Xu, Kyle and Rochakonda, Aarush and Shrivastava, Aryan},
+  booktitle = {NeurIPS 2026 Workshop on TAE (Trust-AI-Eval): Can We Trust AI Evaluation?},
+  year      = {2026},
+  url       = {https://github.com/ihateSAS/ECHO}
+}
+```
+
 ## License
 
 Unless otherwise noted, the code is released under the [MIT License](LICENSE).
