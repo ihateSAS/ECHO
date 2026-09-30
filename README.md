@@ -1,4 +1,40 @@
-# ECHO: Diagnosing Spatial Cue Access in Audio-Language Models
+<div align="center">
+
+<a href="https://tai-eval.github.io/cfp/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://neurips.cc/static/core/img/neurips-navbar-logo.svg">
+    <img src="https://neurips.cc/static/core/img/NeurIPS-logo.svg" alt="NeurIPS 2026" width="200">
+  </picture>
+</a>
+
+<h3><a href="https://tai-eval.github.io/cfp/">NeurIPS 2026 Workshop · TAE (Trust-AI-Eval): Can We Trust AI Evaluation?</a></h3>
+
+<h1>ECHO: Diagnosing Spatial Cue Access in Audio-Language Models</h1>
+
+<b>Daniel Huang</b> ·
+<b>Alvin Shen</b> ·
+<b>Kyle Xu</b> ·
+<b>Aarush Rochakonda</b> ·
+<b>Aryan Shrivastava</b><sup>‡</sup>
+
+<br><br>
+
+<a href="https://tai-eval.github.io/cfp/"><img src="https://img.shields.io/badge/NeurIPS_2026-TAE_Workshop-68448b" alt="NeurIPS 2026 TAE Workshop"></a>
+<a href="paper/ECHO.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b?logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
+<a href="#data-setup"><img src="https://img.shields.io/badge/Benchmark-StereoMusicQA_v0.2-f0883e" alt="Benchmark"></a>
+<a href="#headline-results"><img src="https://img.shields.io/badge/Test_items-1%2C045-2f81f7" alt="1,045 test items"></a>
+<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3fb950" alt="MIT License"></a>
+
+<br>
+
+<a href="#headline-results">Results</a> ·
+<a href="#installation">Installation</a> ·
+<a href="#data-setup">Data</a> ·
+<a href="#reproduce-evaluation-outputs">Reproduce</a> ·
+<a href="#citation">Citation</a>
+
+</div>
 
 ECHO reveals where spatial localization breaks in audio-language models. A model
 may be able to reason from a spatial cue once that cue is written down, yet fail
