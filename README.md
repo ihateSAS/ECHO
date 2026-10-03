@@ -78,7 +78,7 @@ The recording, target position, question, model, and scoring rule remain fixed.
 What changes is whether the cue and conversion rule are written explicitly or
 must be obtained and applied through the audio route. Across 1,045 held-out
 items, making the cue and rule explicit improves left/center/right accuracy by
-**43.3 to 57.0 percentage points** across Qwen2-Audio, Gemini Flash-Lite, and
+**43.2 to 62.4 percentage points** across Qwen2-Audio, Gemini Flash-Lite, and
 GPT-audio. Every audio-only result remains below the most-common-label baseline.
 
 Beyond final accuracy, ECHO includes a premise-grounded verifier that checks
@@ -97,9 +97,9 @@ held-out items.
 
 | Model | Cue-text accuracy | Audio-only accuracy | Paired gap |
 |---|---:|---:|---:|
-| Qwen2-Audio | 71.9% | 28.5% | +43.3 pp |
-| Gemini Flash-Lite | 93.6% | 36.6% | +57.0 pp |
-| GPT-audio | 90.4% | 42.0% | +48.4 pp |
+| Qwen2-Audio | 71.9% | 28.7% | +43.2 pp |
+| Gemini Flash-Lite | 93.6% | 37.9% | +55.7 pp |
+| GPT-audio | 90.4% | 28.0% | +62.4 pp |
 
 Accuracy here means choosing the correct label among left, center, and right.
 Every audio-only result is below the 45.5% most-common-label baseline. Paired
