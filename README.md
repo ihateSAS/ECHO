@@ -14,7 +14,7 @@
 <b>Daniel Huang</b><sup>1</sup> ·
 <b>Alvin Shen</b><sup>1</sup> ·
 <b>Kyle Xu</b><sup>1</sup> ·
-<b>Aarush Rochakonda</b><sup>1</sup> ·
+<b>Aarush Rachakonda</b><sup>1</sup> ·
 <b>Aryan Shrivastava</b><sup>2</sup>
 
 <br>
@@ -233,7 +233,7 @@ relevant to your use:
 ```bibtex
 @inproceedings{huang2026echo_physworldai,
   title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
-  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rochakonda and Aryan Shrivastava},
+  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rachakonda and Aryan Shrivastava},
   booktitle = {The 1st Workshop on Physical World AI: Geometry, Characteristics, and Multimodal Sensing (NeurIPS 2026)},
   year      = {2026},
   url       = {https://openreview.net/forum?id=Rw1a7dTG72}
@@ -241,7 +241,7 @@ relevant to your use:
 
 @inproceedings{huang2026echo_tae,
   title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
-  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rochakonda and Aryan Shrivastava},
+  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rachakonda and Aryan Shrivastava},
   booktitle = {NeurIPS 2026 Trust-AI-Eval Workshop},
   year      = {2026},
   url       = {https://openreview.net/forum?id=zMWt8q9cdp}
