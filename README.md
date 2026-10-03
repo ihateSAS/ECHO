@@ -50,7 +50,7 @@ share the same technical core while emphasizing different aspects of the work.
 | Workshop | Emphasis | Links |
 |---|---|---|
 | [TAE (Trust-AI-Eval): Can We Trust AI Evaluation?](https://tai-eval.github.io/) | Evaluation validity, cue access, and premise-grounded verification | Camera-ready PDF coming soon |
-| [PhysWorldAI: Physical World AI](https://physworld-org.github.io/physworld.github.io/) | Physical sensing, sensor-to-cue representations, and multimodal evaluation | [OpenReview](https://openreview.net/forum?id=Rw1a7dTG72) · Camera-ready PDF coming soon |
+| [PhysWorldAI: Physical World AI](https://physworld-org.github.io/physworld.github.io/) | Physical sensing, sensor-to-cue representations, and multimodal evaluation | Camera-ready PDF coming soon |
 
 ECHO reveals where spatial localization breaks in audio-language models. A model
 may be able to reason from a spatial cue once that cue is written down, yet fail
