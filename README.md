@@ -11,7 +11,7 @@
 
 <h1>ECHO: Diagnosing Spatial Cue Access in Audio-Language Models</h1>
 
-<b>Daniel Huang</b><sup>1</sup> ·
+<b>Daniel Huang</b><sup>1,3</sup> ·
 <b>Alvin Shen</b><sup>1</sup> ·
 <b>Kyle Xu</b><sup>1</sup> ·
 <b>Aarush Rachakonda</b><sup>1</sup> ·
@@ -19,7 +19,7 @@
 
 <br>
 
-<sup>1</sup>Algoverse AI Research · <sup>2</sup>University of Chicago
+<sup>1</sup>Algoverse AI Research · <sup>2</sup>University of Chicago · <sup>3</sup>Geffen Academy at UCLA
 
 <br><br>
 
