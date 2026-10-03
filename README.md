@@ -1,26 +1,31 @@
 <div align="center">
 
-<a href="https://tai-eval.github.io/cfp/">
+<a href="https://neurips.cc/Conferences/2026/CallForWorkshops">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://neurips.cc/static/core/img/neurips-navbar-logo.svg">
     <img src="https://neurips.cc/static/core/img/NeurIPS-logo.svg" alt="NeurIPS 2026" width="200">
   </picture>
 </a>
 
-<h3><a href="https://tai-eval.github.io/cfp/">NeurIPS 2026 Workshop · TAE (Trust-AI-Eval): Can We Trust AI Evaluation?</a></h3>
+<h3>Accepted at two NeurIPS 2026 workshops</h3>
 
 <h1>ECHO: Diagnosing Spatial Cue Access in Audio-Language Models</h1>
 
-<b>Daniel Huang</b> ·
-<b>Alvin Shen</b> ·
-<b>Kyle Xu</b> ·
-<b>Aarush Rochakonda</b> ·
-<b>Aryan Shrivastava</b><sup>‡</sup>
+<b>Daniel Huang</b><sup>1</sup> ·
+<b>Alvin Shen</b><sup>1</sup> ·
+<b>Kyle Xu</b><sup>1</sup> ·
+<b>Aarush Rochakonda</b><sup>1</sup> ·
+<b>Aryan Shrivastava</b><sup>2</sup>
+
+<br>
+
+<sup>1</sup>Algoverse AI Research · <sup>2</sup>University of Chicago
 
 <br><br>
 
 <a href="https://tai-eval.github.io/cfp/"><img src="https://img.shields.io/badge/NeurIPS_2026-TAE_Workshop-68448b" alt="NeurIPS 2026 TAE Workshop"></a>
-<a href="paper/ECHO.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b?logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
+<a href="https://physworld-org.github.io/physworld.github.io/"><img src="https://img.shields.io/badge/NeurIPS_2026-PhysWorldAI_Workshop-0f766e" alt="NeurIPS 2026 PhysWorldAI Workshop"></a>
+<a href="#workshop-papers"><img src="https://img.shields.io/badge/Papers-Camera--ready_PDFs_coming_soon-b31b1b?logo=adobeacrobatreader&logoColor=white" alt="Camera-ready PDFs coming soon"></a>
 <a href="#data-setup"><img src="https://img.shields.io/badge/Benchmark-StereoMusicQA_v0.2-f0883e" alt="Benchmark"></a>
 <a href="#headline-results"><img src="https://img.shields.io/badge/Test_items-1%2C045-2f81f7" alt="1,045 test items"></a>
 <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
@@ -28,6 +33,7 @@
 
 <br>
 
+<a href="#workshop-papers">Papers</a> ·
 <a href="#headline-results">Results</a> ·
 <a href="#installation">Installation</a> ·
 <a href="#data-setup">Data</a> ·
@@ -35,6 +41,16 @@
 <a href="#citation">Citation</a>
 
 </div>
+
+## Workshop acceptances
+
+ECHO was accepted at two non-archival NeurIPS 2026 workshops. The two papers
+share the same technical core while emphasizing different aspects of the work.
+
+| Workshop | Emphasis | Links |
+|---|---|---|
+| [TAE (Trust-AI-Eval): Can We Trust AI Evaluation?](https://tai-eval.github.io/) | Evaluation validity, cue access, and premise-grounded verification | Camera-ready PDF coming soon |
+| [PhysWorldAI: Physical World AI](https://physworld-org.github.io/physworld.github.io/) | Physical sensing, sensor-to-cue representations, and multimodal evaluation | [OpenReview](https://openreview.net/forum?id=Rw1a7dTG72) · Camera-ready PDF coming soon |
 
 ECHO reveals where spatial localization breaks in audio-language models. A model
 may be able to reason from a spatial cue once that cue is written down, yet fail
@@ -114,7 +130,7 @@ The remaining analyses show why this distinction matters:
 | `scripts/` | Benchmark, inference, statistics, scoring, and figure entry points |
 | `artifacts/` | Released manifests, labels, splits, and rejection records; no audio |
 | `experiments/` | Model completions, structured results, and experiment notes |
-| `paper/` | Manuscript source, bibliography, figures, and compiled PDF |
+| `paper/` | Manuscript source, bibliography, figures, and workshop drafts |
 | `tests/` | Unit and integration tests |
 
 ## Installation
@@ -130,7 +146,7 @@ python -m pip install -r requirements.txt
 
 The requirements cover the signal-processing pipeline, tests, and local
 Qwen2-Audio experiments. Hosted-model evaluation may require an additional
-provider SDK; see [`docs/models.md`](docs/models.md).
+provider SDK and credentials for the selected service.
 
 ## Data setup
 
@@ -142,7 +158,7 @@ data/URMP/
 ```
 
 Use the isolated `AuSep_*` instrument tracks, not the mixed `AuMix_*`
-recordings. See [`docs/data.md`](docs/data.md) for the expected layout.
+recordings.
 
 Build StereoMusicQA v0.2 with:
 
@@ -202,21 +218,24 @@ recording is unavailable.
   measurements of the service versions used in this study, not multi-seed
   averages.
 
-## Paper
+## Workshop papers
 
-Read the full manuscript: [`paper/ECHO.pdf`](paper/ECHO.pdf).
+The final TAE and PhysWorldAI camera-ready PDFs will be added here after they
+are uploaded to their respective OpenReview venues. The currently checked-in
+manuscript files are retained as development history and should not be treated
+as the final workshop versions.
 
 ## Citation
 
 If you find ECHO or StereoMusicQA useful, please cite:
 
 ```bibtex
-@inproceedings{huang2026echo,
-  title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
-  author    = {Huang, Daniel and Shen, Alvin and Xu, Kyle and Rochakonda, Aarush and Shrivastava, Aryan},
-  booktitle = {NeurIPS 2026 Workshop on TAE (Trust-AI-Eval): Can We Trust AI Evaluation?},
-  year      = {2026},
-  url       = {https://github.com/ihateSAS/ECHO}
+@misc{huang2026echo,
+  title  = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
+  author = {Huang, Daniel and Shen, Alvin and Xu, Kyle and Rochakonda, Aarush and Shrivastava, Aryan},
+  year   = {2026},
+  note   = {Accepted at the NeurIPS 2026 TAE and PhysWorldAI workshops},
+  url    = {https://github.com/ihateSAS/ECHO}
 }
 ```
 
