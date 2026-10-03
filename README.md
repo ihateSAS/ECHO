@@ -227,15 +227,24 @@ as the final workshop versions.
 
 ## Citation
 
-If you find ECHO or StereoMusicQA useful, please cite:
+If you find ECHO or StereoMusicQA useful, cite the workshop version most
+relevant to your use:
 
 ```bibtex
-@misc{huang2026echo,
-  title  = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
-  author = {Huang, Daniel and Shen, Alvin and Xu, Kyle and Rochakonda, Aarush and Shrivastava, Aryan},
-  year   = {2026},
-  note   = {Accepted at the NeurIPS 2026 TAE and PhysWorldAI workshops},
-  url    = {https://github.com/ihateSAS/ECHO}
+@inproceedings{huang2026echo_physworldai,
+  title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
+  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rochakonda and Aryan Shrivastava},
+  booktitle = {The 1st Workshop on Physical World AI: Geometry, Characteristics, and Multimodal Sensing (NeurIPS 2026)},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=Rw1a7dTG72}
+}
+
+@inproceedings{huang2026echo_tae,
+  title     = {{ECHO}: Diagnosing Spatial Cue Access in Audio-Language Models},
+  author    = {Daniel Huang and Alvin Shen and Kyle Xu and Aarush Rochakonda and Aryan Shrivastava},
+  booktitle = {NeurIPS 2026 Trust-AI-Eval Workshop},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=zMWt8q9cdp}
 }
 ```
 
